@@ -1,4 +1,4 @@
-package com.example.coolweather.andoid.db;
+package com.example.coolweather.android.db;
 
 
 import org.litepal.crud.LitePalSupport;
@@ -11,7 +11,6 @@ public class Province extends LitePalSupport {
     public void setId(int id) {
         this.id = id;
     }
-
     public int getId() {
         return id;
     }
@@ -19,7 +18,6 @@ public class Province extends LitePalSupport {
     public void setProvinceName(String provinceName) {
         this.provinceName = provinceName;
     }
-
     public String getProvinceName() {
         return provinceName;
     }
@@ -27,7 +25,6 @@ public class Province extends LitePalSupport {
     public void setProvinceCode(int provinceCode) {
         this.provinceCode = provinceCode;
     }
-
     public int getProvinceCode() {
         return provinceCode;
     }
